@@ -22,7 +22,3 @@ body {
 .bike {
     filter: grayscale(100%);
 }
-
-.client {
-    color: #E76F51;
-}
