@@ -1,0 +1,12 @@
+.container {
+    background-color: #264653;
+}
+
+
+.button-header {
+    background-color: #E76F51;
+    border-radius   : 5px;
+    width           : 168px;
+    height          : 44px;
+    color           : white;
+}
