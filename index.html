@@ -11,14 +11,22 @@
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous">
+        <!-- external css  -->
         <link rel="stylesheet" href="style.css">
+        <!-- Google font Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet">
     </head>
     <body>
         <header>
             <!-- header start -->
-            <section class="container">
-                <div class="d-flex">
-                    <div class="text-light m-5">
+            <section class="header-background">
+                <div class="d-flex justify-content-around d-flex
+                    align-items-center header-color">
+                    <div class="text-light ms-5">
                         <p>Computer-controlled digital transistorized with
                             electronic advance</p>
                         <h1>Honda CBR 300R</h1>
@@ -30,7 +38,7 @@
                             sunt nostrud amet.</p>
                         <button class="button-header">Purchase</button>
                     </div>
-                    <div class="">
+                    <div class="me-5">
                         <img src="images/header-bike.png" class="w-100" alt="">
                     </div>
 
@@ -38,16 +46,42 @@
             </section>
         </header>
         <main>
-            <!-- fetures bike section  -->
-            <section class="feture-bike m-5">
-                <div class="d-flex justify-content-center">
+
+            <div class="container">
+                <div class="d-flex justify-content-center pt-5">
+
                     <div>
-                        <h1>Fetured Bikes 2021</h1>
-                        <p>Best bike collection</p>
+                        <h1 class="fw-bold">Fetured Bikes 2021</h1>
+
+                        <br>
+                        <p class="text-danger text-center">Best bike collection</p>
                     </div>
+
                 </div>
 
-            </section>
+                <!-- container 1-image -->
+
+                <div class="d-flex justify-content-between pt-5">
+                    <div class="bike">
+                        <img height="243px" width="288px"
+                            src="images/feature-bike.jpg" alt="">
+
+                    </div>
+                    <div>
+                        <img height="243px" width="288px"
+                            src="images/feature-bike.jpg" alt="">
+
+                    </div>
+                    <div class="bike">
+                        <img height="243px" width="288px"
+                            src="images/feature-bike.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </main>
         <footer>
 

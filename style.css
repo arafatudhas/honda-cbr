@@ -1,4 +1,8 @@
-.container {
+body {
+    font-family: poppins;
+}
+
+.header-background {
     background-color: #264653;
 }
 
@@ -9,4 +13,16 @@
     width           : 168px;
     height          : 44px;
     color           : white;
+}
+
+.text-primary-color {
+    color: #E76F51;
+}
+
+.bike {
+    filter: grayscale(100%);
+}
+
+.client {
+    color: #E76F51;
 }
