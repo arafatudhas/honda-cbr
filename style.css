@@ -1,9 +1,14 @@
+/* body  */
+
 body {
     font-family: poppins;
 }
 
+/* header section  */
+
 .header-background {
     background-color: #264653;
+    height          : 100vh;
 }
 
 
@@ -15,13 +20,20 @@ body {
     color           : white;
 }
 
-.text-primary-color {
-    color: #E76F51;
-}
+/* bike section  */
 
-.bike {
+/* .bike {
+    filter: grayscale(100%);
+} */
+
+.bike-1 img,
+.bike-3 img {
     filter: grayscale(100%);
 }
+
+
+
+/* client section  */
 
 .client {
     color: #E76F51;
@@ -30,7 +42,7 @@ body {
 
 /* card  */
 
-.card {
+.testimonial .card {
     height: 478.01px;
     width : 322px;
 }
