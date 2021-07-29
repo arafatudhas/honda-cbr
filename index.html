@@ -44,7 +44,47 @@
                                     enim velit
                                     <br> mollit. Exercitation veniam consequat
                                     sunt nostrud amet.</p>
-                                <button class="button-header">Purchase</button>
+
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn
+                                        button-header" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Purchase
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal"
+                                        tabindex="-1"
+                                        aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title"
+                                                        id="exampleModalLabel">Modal
+                                                        title</h5>
+                                                    <button type="button"
+                                                        class="btn-close"
+                                                        data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn
+                                                        btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button"
+                                                        class="btn btn-primary">Save
+                                                        changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 header-bike">
@@ -67,7 +107,7 @@
             <!-- bike section  -->
             <div class="container">
                 <div class="row">
-                    <div class="d-flex justify-content-center pt-5">
+                    <div class="d-flex justify-content-center pt-5 p-5">
 
                         <div>
                             <h1 class="fw-bold">Fetured Bikes 2021</h1>
@@ -194,8 +234,8 @@
                         <div class="card d-flex align-items-center p-5 mx-auto
                             mb-5">
                             <div class="mb-3">
-                                <img class="rounded-circle" width="143px"
-                                    height="143px"
+                                <img class="rounded-circle" width="149px"
+                                    height="149px"
                                     src="images/user-3.jpg"
                                     alt="">
                             </div>
@@ -347,18 +387,17 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header"
-                                    id="panelsStayOpen-headingThree">
+                                    id="panelsStayOpen-headingFour">
                                     <button class="accordion-button collapsed"
                                         type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseThree"
+                                        data-bs-target="#panelsStayOpen-collapseFour"
                                         aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseThree">
-                                        My bike has been in storage is it safe
-                                        to
-                                        ride?
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        What rules should I follow when riding
+                                        my bike?
                                     </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseThree"
+                                <div id="panelsStayOpen-collapseFour"
                                     class="accordion-collapse collapse"
                                     aria-labelledby="panelsStayOpen-headingThree">
                                     <div class="accordion-body">
@@ -383,13 +422,16 @@
             <!-- Contact Info -->
             <section id="contactInfo" class="py-5">
                 <div class="container">
-                    <h2 class="text-center mb-5">Contact Us</h2>
+                    <h2 class="text-center mb-5 fw-bold" style="color:
+                        #E76F51;">Contact
+                        Us</h2>
                     <div class="row">
                         <div class="col-md-8">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="card-title">
-                                        <h3 class="text-center">Please fill out
+                                        <h3 class="text-center text-danger">Please
+                                            fill out
                                             this form to contact us</h3>
                                     </div>
                                     <div class="row mt-4">
@@ -423,11 +465,11 @@
                                         </div>
                                         <div class="col-md-12">
                                             <textarea name="message" rows="6"
-                                                class="form-control">Message</textarea>
+                                                class="form-control"></textarea>
                                         </div>
                                         <div class="col-md-12">
                                             <input type="submit" class="btn
-                                                btn-outline-success btn-block
+                                                btn-secondary btn-block
                                                 mt-3"
                                                 value="Send">
                                         </div>
@@ -438,15 +480,15 @@
                         <div class="col-md-4 mt-3 mt-md-0">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3>Get In Touch</h3>
+                                    <h3 class="text-danger">Get In Touch</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur
                                         adipisicing elit. Architecto,
                                         consequuntur.</p>
-                                    <h3>Address</h3>
+                                    <h3 class="text-danger">Address</h3>
                                     <p>House #186, DakshinKhan, Dhaka 1230</p>
-                                    <h3>Email</h3>
+                                    <h3 class="text-danger">Email</h3>
                                     <p>programming@gmail.com</p>
-                                    <h3>Phone</h3>
+                                    <h3 class="text-danger">Phone</h3>
                                     <p class="mb-2">+8801000000000</p>
                                     <p>+88010000000000</p>
                                 </div>
@@ -457,8 +499,8 @@
             </section>
 
         </main>
-        <footer>
-
+        <footer class="d-flex justify-content-center p-5 text-secondar">
+            © 2020 bike. All rights reserved
         </footer>
 
 

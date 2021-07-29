@@ -21,11 +21,6 @@ body {
 }
 
 /* bike section  */
-
-/* .bike {
-    filter: grayscale(100%);
-} */
-
 .bike-1 img,
 .bike-3 img {
     filter: grayscale(100%);
