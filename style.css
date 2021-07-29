@@ -22,3 +22,29 @@ body {
 .bike {
     filter: grayscale(100%);
 }
+
+.client {
+    color: #E76F51;
+}
+
+
+/* card  */
+
+.card {
+    height: 478.01px;
+    width : 322px;
+}
+
+.card-3 img {
+    border-radius: 50%;
+}
+
+.fa-star {
+    color: #E77C40;
+}
+
+.identity {
+    color: #23A6F0;
+}
+
+/* card end */
